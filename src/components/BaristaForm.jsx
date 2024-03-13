@@ -82,7 +82,7 @@ const BaristaForm = () => {
                 <button type="new-drink-button" className="button newdrink"onClick={onNewDrink}>🔄</button>
             </div>
 
-            <form>
+            <form className="container">
                 <div className="mini-container">
                     <h3>Temperature</h3>
                     <div className="answer-space" id={correct_temp}>
