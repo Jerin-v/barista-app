@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
+import BaristaForm from './components/BaristaForm'
 import './App.css'
 
 function App() {
@@ -7,7 +8,11 @@ function App() {
 
   return (
     <div>
-      
+      <div className='title-container'>
+        <h1 className='title'>On My Grind</h1>
+        <p>So you think you can be a barista? Let's put that to the test...</p>
+      </div>
+      <BaristaForm />
     </div>
   )
 }
