@@ -20,7 +20,7 @@ const BaristaForm = () => {
 
     const ingredients = {
         'temperature' : ['hot', 'lukewarm', 'cold'],
-        'syrup' : ['mocha', 'vanilal', 'toffee', 'maple', 'caramel', 'other', 'none'],
+        'syrup' : ['mocha', 'vanilla', 'toffee', 'maple', 'caramel', 'other', 'none'],
         'milk' : ['cow', 'oat', 'goat', 'almond', 'none'],
         'blended' : ['yes', 'turbo', 'no']
     }
