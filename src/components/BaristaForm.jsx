@@ -6,6 +6,10 @@ const BaristaForm = () => {
 
     const [currentDrink, setCurrentDrink] = useState('');
     const [trueRecipe, setTrueRecipe] = useState({});
+    const [correct_temp, setCheckedTemperature] = useState('');
+    const [correct_syrup, setCheckedSyrup] = useState('');
+    const [correct_milk, setCheckedMilk] = useState('');
+    const [correct_blended, setCheckedBlended] = useState('');
     
     const [inputs, setInputs] = useState({
         'temperature': '',
@@ -28,6 +32,10 @@ const BaristaForm = () => {
             'syrup' : '', 
             'blended' : ''
         });
+        setCheckedTemperature('');
+        setCheckedSyrup('');
+        setCheckedMilk('');
+        setCheckedBlended('');
 
         getNextDrink();
 
