@@ -1,3 +1,10 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -9,6 +16,7 @@
 .mini-container {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   flex-direction: column;
   margin: 25px;
   padding: 15px;
@@ -37,12 +45,53 @@
 
 .answer-space{
   background-color: rgb(226, 195, 147);
+  text-align: center;
   height: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: auto;
   margin-bottom: 20px;
   border-radius: 15px;
-  margin-left: auto;
   clear: both;
+}
+
+li {
+  list-style: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #FFFDD0;
+  border-radius: 15px;
+}
+
+button.newdrink {
+  width: auto;
+  text-align: center;
+}
+
+
+.button {
+  background-color: rgba(138, 98, 12, 0.942);
+  border-radius: 8px;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: border-color .25s;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.drink-container {
+  display: flex;
 }
